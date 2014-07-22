@@ -1,6 +1,6 @@
 # Tzatziki
 
-TODO: Write a gem description
+Pieces of cucumber with yougurt sauce
 
 ## Installation
 
@@ -45,5 +45,5 @@ For the time being I am happy with the fact that it works (even if it produces l
 * 2014/03/14 - gemification ready and tested. I think a better name would be 'Tzatziki', because it is made with chopped cucumbers, and it doesn't try to be a replacement for cucumber as a general tool. I need to think on:
    1. the name for the CLI tool: ki? tza? tzi? I think ```tza``` (The Zazen action)
    2. the name for the wrapper to tzatziki (a different/private gem with the features and steps)
-
+* 2014/07/22 - preparing tzatziki once again (why did I stop this? ah, wait!)
 

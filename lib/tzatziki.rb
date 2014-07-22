@@ -5,9 +5,7 @@ require "tzatziki/mappings"
 require "cucumber/platform"
 
 module Tzatziki
-  def self.lint(path, features = nil)
-    ENV['FOO']=path
-
+  def self.lint(features = nil)
     # This will run the features from within the package
     # Ideally I would like having no features here, adding them to a wrapper (vflinter, or similar)
     # And, allowing for the addition/overriding of those
@@ -35,6 +33,6 @@ module Tzatziki
     report.after_suite
 
     p "#{report.test_cases.total_passed} / #{report.test_cases.total}"
-    p report.test_cases.exceptions[0].message
+    p report.test_cases.exceptions[0].message unless report.test_cases.exceptions.empty?
   end
 end

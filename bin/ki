@@ -5,4 +5,6 @@ $: << File.dirname(__FILE__) + '/../lib'
 require 'tzatziki'
 
 #Working folder, features
-Tzatziki.lint(ARGV[0] || ".", ARGV[1])
+Dir::chdir(ARGV[0] || ".") do
+  Tzatziki.lint(ARGV[1])
+end

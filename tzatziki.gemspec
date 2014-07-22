@@ -7,9 +7,9 @@ Gem::Specification.new do |spec|
   spec.name          = "tzatziki"
   spec.version       = Tzatziki::VERSION
   spec.authors       = ["tnarik"]
-  spec.email         = ["tnarik@gmail.com"]
-  spec.summary       = %q{Run features and steps from bundles, from a different folder.}
-  spec.description   = %q{A tool using some cucumber and other stuff, to take away}
+  spec.email         = ["tnarik@lecafeautomatique.co.uk"]
+  spec.summary       = %q{Run features and steps from bundles, on a different folder.}
+  spec.description   = %q{A tool using some cucumber bits and other stuff, to take away}
   spec.homepage      = ""
   spec.license       = "MIT"
 
