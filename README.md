@@ -2,6 +2,13 @@
 
 Pieces of cucumber with yougurt sauce
 
+[![Build Status](http://img.shields.io/travis/tnarik/tzatziki.svg)](https://travis-ci.org/tnarik/tzatziki)
+[![Code Climate](http://img.shields.io/codeclimate/github/tnarik/tzatziki.svg)](https://codeclimate.com/github/tnarik/tzatziki)
+[![Coveralls](http://img.shields.io/coveralls/tnarik/tzatziki.svg)](https://coveralls.io/r/tnarik/tzatziki)
+[![RubyGems](http://img.shields.io/gem/v/tzatziki.svg)](http://rubygems.org/gems/tzatziki)
+[![Gemnasium](http://img.shields.io/gemnasium/tnarik/tzatziki.svg)](https://gemnasium.com/tnarik/tzatziki)
+
+
 ## Installation
 
 Add this line to your application's Gemfile:
